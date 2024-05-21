@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction au Cloud Computing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .card {
+            background-color: white;
+            margin: 10px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue dans le Cloud Computing</h1>
+    </header>
+    <div class="container">
+        <div class="card">
+            <h2>Qu'est-ce que le Cloud Computing ?</h2>
+            <p>Le Cloud Computing désigne l'utilisation de ressources informatiques (serveurs, stockage, bases de données, réseaux, logiciels, etc.) via Internet, souvent appelé "le cloud". Cela permet d'accéder à ces ressources à la demande, sans avoir besoin de posséder et de gérer des infrastructures physiques.</p>
+        </div>
+        <div class="card">
+            <h2>Avantages du Cloud Computing</h2>
+            <ul>
+                <li>Évolutivité : Augmentez ou diminuez facilement vos ressources selon les besoins.</li>
+                <li>Coût réduit : Payez uniquement pour ce que vous utilisez, réduisant ainsi les coûts d'infrastructure.</li>
+                <li>Accessibilité : Accédez à vos ressources de n'importe où, à tout moment.</li>
+                <li>Sécurité : Profitez des mesures de sécurité avancées mises en place par les fournisseurs de cloud.</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Services Cloud Populaires</h2>
+            <ul>
+                <li>Amazon Web Services (AWS)</li>
+                <li>Microsoft Azure</li>
+                <li>Google Cloud Platform (GCP)</li>
+                <li>IBM Cloud</li>
+                <li>Oracle Cloud</li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log("La page est entièrement chargée et prête !");
+        });
+    </script>
+</body>
+</html>
